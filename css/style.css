@@ -1,3 +1,7 @@
+a  {
+	outline: none;
+}
+
 .mfp-fade.mfp-bg {
 	opacity: 0;
 	-webkit-transition: all 0.15s ease-out; 

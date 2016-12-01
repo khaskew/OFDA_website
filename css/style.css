@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a  {
 	outline: none;
 }
@@ -10,20 +11,39 @@ a  {
 }
 .mfp-fade.mfp-bg.mfp-ready {
 	opacity: 0.8;
-}
-.mfp-fade.mfp-bg.mfp-removing {
-	opacity: 0;
+=======
+/*.slick-slider {
+	display: inline-block;
+}*/
+
+/*.slick-slider {
+	width: 100%;
+}*/
+#container {
+	width: 100%;
+>>>>>>> master
 }
 
-.mfp-fade.mfp-wrap .mfp-content {
-	opacity: 0;
-	-webkit-transition: all 0.15s ease-out; 
-	-moz-transition: all 0.15s ease-out; 
-	transition: all 0.15s ease-out;
+body {
+	font-family: 'Source Sans Pro', sans-serif;
 }
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-	opacity: 1;
+
+h2 {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 125%;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+
+
+.fiftyyears h2 {
+	color: rgb(194,31,60);
 }
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-	opacity: 0;
+
+.fiftyyears, .staff, .drr {
+	color: rgb(88,89,91);
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 135%;
+	padding: 25px 15px 25px 36px;
 }

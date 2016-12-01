@@ -1,11 +1,12 @@
 $(document).ready(function(){
+	
 	$('.multiple-items').slick({
   		infinite: true,
  		slidesToShow: 4,
- 		slidesToScroll: 1,
+ 		slidesToScroll: 0,
 	});
 
-	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+	$('.popup-youtube').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
 		mainClass: 'mfp-fade',
@@ -13,6 +14,8 @@ $(document).ready(function(){
 		preloader: false,
 
 		fixedContentPos: false
+
+
 	});
 
 
